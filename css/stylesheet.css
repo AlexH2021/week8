@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: blue;
+    flex: 1 0 100%;
+}
+
+nav {
+    background-color: cadetblue;
+    flex: 1 0 1em;
+    order: 1;
+}
+
+main {
+    background-color: grey;
+    flex: 1 0 20em;
+    order: 2;
+}
+
+aside {
+    background-color: green;
+    flex: 1 0 1em;
+    order: 3;
+}
+
+footer {
+    background-color: pink;
+    flex: 1 0 100%;
+    order: 4;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    padding: 1em;
+}
